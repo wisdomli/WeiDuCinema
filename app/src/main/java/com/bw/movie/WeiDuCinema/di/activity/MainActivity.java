@@ -75,6 +75,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     //设置图片变小时的宽高
     public void setSizeMin(ImageView imageView) {
         ViewGroup.LayoutParams params = imageView.getLayoutParams();
+        //1dp*像素密度/160 = 实际像素数   dp转换px公式
         params.height = 55 * (width / 2) / 160;
         params.width = 55 * (width / 2) / 160;
         imageView.setLayoutParams(params);
