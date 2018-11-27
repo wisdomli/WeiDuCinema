@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import com.bw.movie.WeiDuCinema.R;
 
 /**
- * A simple {@link Fragment} subclass.
+ * 影片页
  */
 public class FilmFragment extends Fragment {
 

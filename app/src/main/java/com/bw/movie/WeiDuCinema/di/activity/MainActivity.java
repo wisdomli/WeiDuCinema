@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 首页主布局viewpager+Tablayout
+ * 首页主布局切换
  */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private FrameLayout main_frame;
